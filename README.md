@@ -1,4 +1,4 @@
-# Analisi de redimiento de dotplots
+# Analisis de rendimiento de dotplots
 
 ## Descripción
 Este proyecto realiza un análisis de dot plot entre dos secuencias de ADN utilizando Python.
