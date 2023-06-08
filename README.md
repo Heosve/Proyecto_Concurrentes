@@ -15,11 +15,21 @@ Este proyecto realiza un análisis de dot plot entre dos secuencias de ADN utili
 3. Instala las librerías necesarias ejecutando el siguiente comando:
 pip install numpy multiprocessing time biopython
 
-## Uso
+## Ejecucion secuencial
+
+Para ejecutar el codigo secuencial solo es necesario la ejecucion del comando :
+
+"python secuencial.py datos/E_coli.fna datos/Salmonella.fna 10000"
+
+Dentro de la carpeta principal de los archivos, debe asegurarse se tener todas las dependencias instaladas en su kernel.
+
+## Ejecucion Multiprocessing
 Para ejecutar el código, utiliza el siguiente comando:
 python archivo.py archivo1.fasta archivo2.fasta --maxlength
 
-(para mpi)mpiexec -n 10 python .\archivo.py
+## Ejecucion MPI4PY
+
+mpiexec -n 10 python .\archivo.py
 
 Reemplaza `archivo.py` con el nombre del archivo que contiene el código.
 Reemplaza `archivo1.fasta` y `archivo2.fasta` con las rutas de los archivos FASTA que contienen las secuencias de ADN que deseas comparar.
