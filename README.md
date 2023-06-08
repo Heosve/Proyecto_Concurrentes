@@ -6,7 +6,7 @@ Este proyecto realiza un análisis de dot plot entre dos secuencias de ADN utili
 ## Requisitos
 
 - Python 3.11
-- Librerías requeridas: numpy, multiprocessing, time, Bio
+- Librerías requeridas: numpy, multiprocessing, time, Bio, mpi4py.
 
 ## Instalación
 
