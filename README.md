@@ -1,4 +1,4 @@
-# Nombre del proyecto
+# Analisi de redimiento de dotplots
 
 ## Descripción
 Este proyecto realiza un análisis de dot plot entre dos secuencias de ADN utilizando Python.
